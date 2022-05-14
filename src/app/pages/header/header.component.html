@@ -1,0 +1,56 @@
+<!--This code is property of Conor McNamara-->
+<!--https://codepen.io/conorjmcnamara/-->
+
+<div>
+  <div class="test">
+    <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+    <div class="mobile-bar">
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+      </label>
+    </div>
+
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="#">EXAMPLE</a></li>
+          <li><a href="#">EXAMPLE</a></li>
+          <li><a href="#">EXAMPLE</a></li>
+          <li>
+            <a href="#">
+              <p>Login</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <a
+      class="navbar-brand"
+      href="https://codepen.io/conorjmcnamara/"
+      style="padding: 0px"
+    >
+      <img src="../../../assets/images/680-it-developer-outline.gif" />
+    </a>
+  </div>
+</div>
+
+<script>
+  // This code is property of Conor McNamara:
+  // https://codepen.io/conorjmcnamara/:
+
+  window.onscroll = function () {
+    myFunction();
+  };
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
