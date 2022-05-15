@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+h2 {
+  font-size: 30px;
+  color: white;
+}
+h2:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.skill-card-list {
+  /* display: flex; */
+  padding: 3rem;
+
+  gap: 20px;
+}
+.icon-size {
+  font-size: 85px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .skill-card-list {
+    padding: 1rem !important;
+
+    gap: 20px;
+  }
+}
+.card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: linear-gradient(85deg, #434343, #262626);
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}

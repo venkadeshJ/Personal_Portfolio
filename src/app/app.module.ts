@@ -15,14 +15,10 @@ import { SkillsComponent } from './pages/skills/skills.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
