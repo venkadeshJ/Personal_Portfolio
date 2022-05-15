@@ -408,7 +408,7 @@ p {
 }
 
 .navbar-brand > img {
-  height: 120px;
+  height: 95px;
   width: auto;
   z-index: 10;
   position: fixed;
@@ -433,13 +433,13 @@ p {
     z-index: 5;
     position: relative;
     left: 0;
-    padding-top: 0;
+    padding-top: 16px;
     width: 100%;
     height: auto;
     overflow: auto;
     visibility: visible;
     opacity: 1;
-    text-align: right;
+    text-align: center;
   }
   .header li {
     display: inline-block;
