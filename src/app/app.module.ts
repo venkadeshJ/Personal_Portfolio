@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { SkillsComponent } from './pages/skills/skills.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { ExperienceComponent } from './pages/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
     HeaderComponent,
     FooterComponent,
     SkillsComponent,
+    ProjectsComponent,
+    ExperienceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

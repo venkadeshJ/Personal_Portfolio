@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+h2 {
+  font-size: 30px;
+  color: white;
+}
+h2:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
